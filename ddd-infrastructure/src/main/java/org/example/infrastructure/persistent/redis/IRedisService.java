@@ -1,6 +1,10 @@
 package org.example.infrastructure.persistent.redis;
 import org.redisson.api.*;
 
+
+import java.util.concurrent.TimeUnit;
+
+
 public interface IRedisService {
   /**
    * 设置指定 key 的值
